@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import { Layout, Home, Weather } from "../views";
+import { getWeather } from "../services/weather";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

@@ -4,10 +4,10 @@ import { Outlet } from "react-router-dom";
 
 function Layout() {
   return (
-    <>
+    <div className="font-bold font-sans">
       <Header />
       <Outlet />
-    </>
+    </div>
   );
 }
 
